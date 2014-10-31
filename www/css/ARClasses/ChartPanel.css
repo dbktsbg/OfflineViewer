@@ -1,0 +1,71 @@
+﻿
+/* ===== Classes ===== */
+
+/* ..... DataPoint ..... */
+
+.DataPointBarBaseClass
+{
+    background-color:rgba(255, 216, 0, 0.85);
+}
+
+.DataPointTextBaseClass
+{
+    color:rgba(255, 216, 0, 0.85);
+    font-family: 'Arial Rounded MT' ;  /* 'Arial Rounded MT' 'Segoe UI' */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9)
+}
+
+.DataPointTextSize2AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.2vh;
+}
+
+.DataPointTextSize3AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.DataPointTextSize4AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.DataPointTextSize5AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.DataPointTextSize6AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.8vh;
+}
+
+.DataPointTextSize7AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.6vh;
+}
+
+.DataPointTextSize8AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.4vh;
+}
+
+.DataPointTextSize9AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.2vh;
+}
+
+.DataPointTextSize10AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.2vh;    
+}

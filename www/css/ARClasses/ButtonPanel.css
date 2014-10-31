@@ -1,0 +1,73 @@
+﻿/* ===== Classes ===== */
+
+/* ..... ButtonPanel ..... */
+
+/* ..... Button ..... */
+
+.ButtonTextBaseClass
+{
+    color:rgba(255, 216, 0, 0.85);
+    font-family: 'Arial Rounded MT' ;  /* 'Arial Rounded MT' 'Segoe UI' */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9)
+}
+
+.ButtonTextSize2AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.2vh;
+}
+
+.ButtonTextSize3AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.ButtonTextSize4AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.ButtonTextSize5AnswerClass
+{
+    font-size:1.5em;
+    font-size:4.0vh;
+}
+
+.ButtonTextSize6AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.8vh;
+}
+
+.ButtonTextSize7AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.6vh;
+}
+
+.ButtonTextSize8AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.4vh;
+}
+
+.ButtonTextSize9AnswerClass
+{
+    font-size:1.5em;
+    font-size:3.2vh;
+}
+
+.ButtonTextSize10AnswerClass
+{
+    font-size:3.0em;
+    font-size:6.4vh;    
+}
+
+
+
+/* ===== Media Queries ===== */
+

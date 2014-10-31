@@ -1,0 +1,24 @@
+﻿    
+/* ===== Classes ===== */
+
+.SlideStyle
+{
+    position:absolute;
+}
+
+.SlideImageStyle
+{
+    position:absolute; 
+}
+
+.SlideImageScaleToHeightStyle
+{
+    height: 100%;
+}
+
+.SlideImageScaleToWidthStyle
+{
+    width: 100%;
+}
+
+/* ===== Media Queries ===== */

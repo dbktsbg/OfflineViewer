@@ -1,0 +1,27 @@
+﻿/* ===== Classes ===== */
+
+.PanelTextBaseClass
+{
+    color:rgba(255, 216, 0, 0.85);
+    font-family: 'Arial Rounded MT' ;  /* 'Arial Rounded MT' 'Segoe UI' */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);   
+}
+
+.PanelTextLargeSizeClass
+{
+    font-size:3.0em;
+    font-size:8.4vh;
+}
+
+.PanelTextMediumSizeClass
+{
+    font-size:2.0em;
+    font-size:6.0vh;
+}
+
+.PanelTextSmallSizeClass
+{
+    font-size:1.5em;
+    font-size:4.2vh;
+}

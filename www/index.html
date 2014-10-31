@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Offline Viewer</title>
+
+        <meta 
+            http-equiv="Content-Type" 
+            content="text/html; 
+            charset=UTF-8" />
+
+        <meta 
+	        name="viewport" 
+	        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link 
+	        rel="stylesheet" 
+	        type="text/css" 
+	        href="css/index.css" />
+
+        <link rel="stylesheet"
+              href="css/ARClasses/TextPanel.css" />
+
+        <link rel="stylesheet"
+              href="css/ARClasses/SlideViewer.css" />
+
+    </head>
+
+    <body>
+
+        <!--This element MUST be here - above all others... or else it is not anchored to the top of the page!-->
+        <div id="SlideViewerParentContainter"
+             style="position:absolute;left:5%;width:90%;height:100%;background-color:transparent;"></div>
+
+        <!--<div id="SlideView"
+             style="visibility:collapse;">
+
+            <img id="SlideImage"
+                 style="width:100%; padding:0px; margin:0px"
+                 src="" />
+
+        </div>-->
+
+        <div id="AudienceView"
+             class="container navbar-fixed-top"
+             style="visibility:collapse; width:100%; background-color:rgba(0,0,0,0.5)">
+
+            <div class="row" style="vertical-align:bottom">
+
+                <div id="AudienceMessage" class="btn col-xs-12">
+                    <div class="row">
+                        <h1>Please Vote Now</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="PollingView"
+             class="container navbar-fixed-bottom"
+             style="visibility:collapse; width:100%; background-color:rgba(0,0,0,0.7)">
+
+            <div class="row" style="vertical-align:bottom">
+
+                <div id="SelectAnswer1Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>A</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer2Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>B</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer3Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>C</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer4Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>D</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer5Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>E</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer6Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>F</h1>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--<div class="row" style="vertical-align:bottom">
+
+                <div id="SelectAnswer6Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>F</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer7Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>G</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer8Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>H</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer9Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>I</h1>
+                    </div>
+                </div>
+                <div id="SelectAnswer10Button" class="btn col-xs-2">
+                    <div class="row">
+                        <h1>J</h1>
+                    </div>
+                </div>
+
+            </div>-->
+
+        </div>
+
+
+
+        <!--PhoneGap script-->
+        <script 
+            type="text/javascript" 
+            src="phonegap.js"></script>
+
+        <!--jQuery script-->
+        <script 
+            type="text/javascript"
+            src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        
+        <!--Meridia App scripts-->
+        <script src="js/app.js" type="text/javascript"></script>
+        <script src="js/WPFClasses/Animation.js" type="text/javascript"></script>
+        <script src="js/ARClasses/TextPanel.js" type="text/javascript"></script>
+        <script src="js/ARClasses/Panel.js" type="text/javascript"></script>
+        <script src="js/ARClasses/SlideViewer.js" type="text/javascript"></script>
+
+    </body>
+
+</html>
